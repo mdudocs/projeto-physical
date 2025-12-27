@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cansou de ser frango? A Physical te ajuda!">
     <title>Physical Suplementos</title>
     <link rel="stylesheet" href="style.css">
@@ -16,10 +17,10 @@
         <div class="nav-cabecalho">
             <nav class="menu-nav">
                 <li>
-                    <a href="#" class="menu-item">Inicio</a>
-                    <a href="#" class="menu-item">Kits</a>
-                    <a href="#" class="menu-item">Produtos</a>
-                    <a href="#" class="menu-item">Sobre</a>
+                    <a href="https://wa.link/cdcqpu/" target="_blank" class="menu-item">Contato</a>
+                    <a href="#categorias" class="menu-item">Categorias</a>
+                    <a href="#produtos" class="menu-item">Produtos</a>
+                    <a href="#sobre" class="menu-item">Sobre</a>
                 </li>
             </nav>
             <nav class="menu-botoes">
@@ -39,48 +40,55 @@
             <p class="pagina1-texto">Suplementos para quem busca performance extrema. <br>
                 Do pré-treino explosivo à recuperação muscular perfeita.</p>
             <div class="pagina1-botoes">
-                    <a class="pagina1-botao" href="#">Ver produtos</a>
-                    <a class="pagina1-botao href="#">Montar Kit</a>
+                    <a class="pagina1-botao" href="#produtos">Ver produtos</a>
+                    <a class="pagina1-botao" href="#categorias">Montar Kit</a>
             </div>
         </section>
 
-        <section class="pagina2"> <!--PRODUTOS POR CATEGORIAS-->
+        <section class="pagina2" id="categorias"> <!--PRODUTOS POR CATEGORIAS-->
             <div class="pg2-grid">
 
                 <div class="pag2-card">
 
-                    <img class="pag2-img" src="https://i.pinimg.com/736x/f3/30/58/f330583749fbb7da615d535ca1d9c24a.jpg" alt="">
+                    <a href="ProdutosCategorias\categorias.html" target="_blank">
+                        <img class="pag2-img" src="https://i.pinimg.com/736x/f3/30/58/f330583749fbb7da615d535ca1d9c24a.jpg" alt="">
+                    </a>
                     <div class="pag2-texto">
                         <h3>MASSA MUSCULAR</h3>
-                        <a class="pag2-cta" href="#" target="_blank">WHEY PROTEIN & BLENDS ➜</a>
+                        <p class="page2-cta" id="textolaranja">WHEY PROTEIN & BLENDS ➜</p>
 
                     </div>
                 </div>
 
                 <div class="pag2-card">
+                    
+                    <a href="ProdutosCategorias\categorias.html" target="_blank">
+                        <img class="pag2-img" src="https://i.pinimg.com/736x/b9/8e/7f/b98e7f8dd7b13bf62f73d2bfee6a3be0.jpg" alt="creatina">
+                    </a>
 
-                    <img class="pag2-img" src="https://i.pinimg.com/736x/b9/8e/7f/b98e7f8dd7b13bf62f73d2bfee6a3be0.jpg" alt="creatina">
                     <div class="pag2-texto">
                         <h3>ENERGIA & FOCO</h3>
-                        <a class="pag2-cta" href="#" target="_blank">PRÉ-TREINOS & CAFEÍNA ➜</a>
+                        <p class="page2-cta" id="textolaranja">PRÉ-TREINOS & CAFEÍNA ➜</p>
                     </div>
 
                 </div>
 
                 <div class="pag2-card">
 
-                    <img class="pag2-img" src="https://i.pinimg.com/736x/0c/d2/d1/0cd2d1064e1929e8a0b6adc3e0ab3f27.jpg" alt="homem musculoso">
+                    <a href="ProdutosCategorias\categorias.html" target="_blank">
+                        <img class="pag2-img" src="https://i.pinimg.com/736x/0c/d2/d1/0cd2d1064e1929e8a0b6adc3e0ab3f27.jpg" alt="homem musculoso">
+                    </a>
+
                     <div class="pag2-texto">
                         <h3>DEFINIÇÃO</h3>
-                        <a class="pag2-cta" href="#" target="_blank">TERMOGÊNICOS ➜</a>
-
+                        <p class="page2-cta" id="textolaranja">TERMOGÊNICOS ➜</p>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <section class="pagina3">  <!--BEST SELLERS-->
+        <section class="pagina3" id="produtos">  <!--BEST SELLERS-->
 
             <h2 class="pag3-titulo">MAIS VENDIDOS</h2>
 
@@ -93,20 +101,19 @@
                         <img class="pag3-img" id="pag3-img1" src="https://duxnutrition.vtexassets.com/arquivos/ids/169289-400-400/DUX-POTES-CINZA-BRANCO-0048-DUX-REBRANDING-WPC-900-G-SHOT-1-PNG-png.webp?v=638985793700730000" alt="Whey Protein Concentrado 900g">
                     </div>
 
-                    <div class="pag3-texto">
+                    <div class="pag3-card-info">
                         <div class="nome-descricao">
-                            <h3>WHEY PROTEIN CONCENTRADO</h3>
-                            <p>Descrição do produto</p>
+                            <h3 class="nome-produto">WHEY PROTEIN CONCENTRADO</h3>
+                             <p class="descricao-produto">Descrição do produto</p>
+                        </div>
+                        <div class="preco-botao">
+                            <section class="preco" id="textolaranja">R$ 150,00</section>
+                            <a href="#" target="_blank"">
+                                <img class="botaoadd" src="assets\botaoadd.png" alt="adicionar ao carrinho">
+                            </a>
                         </div>
                     </div>
-
-                    <div class="preco-botao">
-                        <section class="preco" id="textolaranja">R$ 150,00</section>
-                        <a href="#" target="_blank"">
-                            <img class="botaoadd" src="assets\botaoadd.png" alt="adicionar ao carrinho">
-                        </a>
-                    </div>
-
+                    
                 </li>
 
                 <!--card 2-->
@@ -115,19 +122,17 @@
                         <img class="pag3-img" id="pag3-img2" src="https://duxnutrition.vtexassets.com/arquivos/ids/165964-400-400/DUX-POTES-CINZA-BRANCO-0015-DUX-REBRANDING-CREATINA-CREAPURE-300-G-SHOT-1-PNG-png.webp?v=638582092275430000" alt="CREATINA (100% Creapure®) - POTE 300g">
                     </div>
 
-                    <div class="pag3-texto">
-
+                    <div class="pag3-card-info">
                         <div class="nome-descricao">
-                            <h3>CREATINA 100% CREAPURE®</h3>
-                            <p>Descrição do produto</p>
+                            <h3 class="nome-produto">CREATINA 100% CREAPURE®</h3>
+                             <p class="descricao-produto">Descrição do produto</p>
                         </div>
-                    </div>
-
-                    <div class="preco-botao">
-                        <section class="preco" id="textolaranja">R$ 150,00</section>
-                        <a href="#" target="_blank"">
-                            <img class="botaoadd" src="assets\botaoadd.png" alt="adicionar ao carrinho">
-                        </a>
+                        <div class="preco-botao">
+                            <section class="preco" id="textolaranja">R$ 150,00</section>
+                            <a href="#" target="_blank"">
+                                <img class="botaoadd" src="assets\botaoadd.png" alt="adicionar ao carrinho">
+                            </a>
+                        </div>
                     </div>
 
                 </li>
@@ -139,18 +144,17 @@
                     <img class="pag3-img" id="pag3-img3" src="https://duxnutrition.vtexassets.com/arquivos/ids/168815-400-400/DUX-POTES-CINZA-BRANCO-0051-DUX-REBRANDING-WPI-450-G-SHOT-1-PNG-png.webp?v=638888078921370000" alt="Whey Protein Isolado 900g">
                     </div>
 
-                    <div class="pag3-texto">
+                    <div class="pag3-card-info">
                         <div class="nome-descricao">
-                            <h3>WHEY PROTEIN ISOLADO 900G</h3>
-                            <p>Descrição do produto</p>
+                            <h3 class="nome-produto">WHEY PROTEIN ISOLADO</h3>
+                             <p class="descricao-produto">Descrição do produto</p>
                         </div>
-                    </div>
-
-                    <div class="preco-botao">
-                        <section class="preco" id="textolaranja">R$ 150,00</section>
-                        <a href="#" target="_blank"">
-                            <img class="botaoadd" src="assets\botaoadd.png" alt="adicionar ao carrinho">
-                        </a>
+                        <div class="preco-botao">
+                            <section class="preco" id="textolaranja">R$ 150,00</section>
+                            <a href="#" target="_blank"">
+                                <img class="botaoadd" src="assets\botaoadd.png" alt="adicionar ao carrinho">
+                            </a>
+                        </div>
                     </div>
 
                 </li>
@@ -199,14 +203,14 @@
                 </li>
                 <li class="pagina4-lista-item">
                     <img class="pagina4-img" src="assets\foconoatleta.png" alt="foco no atleta">
-                    <h3>FOCO NO ATLETA</h3>
+                    <h3>FOCO NO CLIENTE</h3>
                 </li>
             </ul>
         </section>
 
     </main>
 
-    <footer>
+    <footer id="sobre">
         <div class="footer-principal">
             <section class="logo-missao-redes">
                 <div class="logo-nome-footer">
@@ -246,7 +250,10 @@
                             <a href="#">Fale Conosco</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Trocas e Devoluções</a>
+                            <a href="#">Trocas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Devoluções</a>
                         </li>
                         <li class="nav-item">
                             <a href="#">Termos de Uso</a>
